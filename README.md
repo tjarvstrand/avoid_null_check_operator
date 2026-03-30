@@ -1,3 +1,4 @@
+[![pub package](https://img.shields.io/pub/v/avoid_null_check_operator.svg)](https://pub.dev/packages/avoid_null_check_operator)
 
 A Dart analyzer plugin that warns about null check operator (`!`) usage.
 
