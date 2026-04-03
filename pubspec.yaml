@@ -1,6 +1,6 @@
 name: avoid_null_check_operator
 description: An analysis rule that warns about null check operator usage.
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/tjarvstrand/avoid_null_check_operator
 repository: https://github.com/tjarvstrand/avoid_null_check_operator
 

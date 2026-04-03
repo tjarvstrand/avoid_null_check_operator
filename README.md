@@ -16,14 +16,14 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dev_dependencies:
-  avoid_null_check_operator: ^1.0.0
+  avoid_null_check_operator: ^0.1.0
 ```
 
 Then add to `analysis_options.yaml`:
 
 ```yaml
 plugins:
-  avoid_null_check_operator: ^1.0.0
+  avoid_null_check_operator: ^0.1.0
 ```
 
 Restart the Dart Analysis Server to activate.
