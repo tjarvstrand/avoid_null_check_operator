@@ -4,6 +4,12 @@ A Dart analyzer plugin that warns about null check operator (`!`) usage.
 
 Requires Dart 3.10+ (Flutter 3.38+).
 
+Null check operators will cause failures at runtime without any kind of compile-time warning when expectations of the
+code around them changes. Even if a particular usage looks safe today, they are easy to miss, and there is nothing
+preventing anyone from making a mistake tomorrow.
+
+As such, it is better to avoid them entirely.
+
 ## Usage
 
 Add to your `pubspec.yaml`:
